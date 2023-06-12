@@ -1,19 +1,19 @@
 //declaramos las funciones con los mensajes
 
 function rutaGet (req, res) {
-    res.status(200).send("esta es la ruta get")
+    res.status(200).send("Esta ruta hace una peticion GET")
 }
 
 function rutaPost (req, res) {
-    res.status(200).send("esta es la ruta post")
+    res.status(200).send("Esta ruta hace una peticion POST")
 }
 
 function rutaPut (req, res) {
-    res.status(200).send("esta es la ruta put")
+    res.status(200).send("Esta ruta hace una peticion PUT")
 }
 
 function rutaDelete (req, res) {
-    res.status(200).send("esta es la ruta delete")
+    res.status(200).send("Esta ruta hace una peticion DELETE")
 }
 
 //exportamos las funciones
