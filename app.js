@@ -1,9 +1,13 @@
 const express = require("express");
 const app = express();
+
+//configuramos para poder utilizar el archivo .env
+require("dotenv").config();
+
 const morgan = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
-const port = 6000;
+const port = process.env.PORT || 6000;
 //importamos las rutas desde el archivo de la carpeta routes
 const routes = require("./routes/index.js");
 
